@@ -1,0 +1,2 @@
+# asr-nemo-deutsch
+Szakdolgozat.
