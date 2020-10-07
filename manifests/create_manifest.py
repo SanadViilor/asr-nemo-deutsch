@@ -81,20 +81,20 @@ if __name__ == '__main__':
     german = 'aäbcdefghijklmnoöpqrsßtuüvwxyz '
     
     #CREATE TEST MANIFEST
-    print('\n\n\n\n CREATE TEST MANIFEST \n\n\n\n')
-    test_array = read_tsv(TSV_ROOT + 'test.tsv', DATA_ROOT)
-    create_manifest(test_array, 'test.json', german)
+#    print('\n\n\n\n CREATE TEST MANIFEST \n\n\n\n')
+#    test_array = read_tsv(TSV_ROOT + 'test.tsv', DATA_ROOT)
+#    create_manifest(test_array, 'test.json', german)
     #CREATE DEV MANIFEST
-    print('\n\n\n\n CREATE DEV MANIFEST \n\n\n\n')
-    dev_array = read_tsv(TSV_ROOT + 'dev.tsv', DATA_ROOT)
-    create_manifest(dev_array, 'dev.json', german)
+#    print('\n\n\n\n CREATE DEV MANIFEST \n\n\n\n')
+#    dev_array = read_tsv(TSV_ROOT + 'dev.tsv', DATA_ROOT)
+#    create_manifest(dev_array, 'dev.json', german)
     #CREATE TRAIN MANIFESTS
     print('\n\n\n\n CREATE TRAIN MANIFESTS \n\n\n\n')
     train_array = read_tsv(TSV_ROOT + 'train.tsv', DATA_ROOT)
     print('\n\n\n\n 20 HOURS \n\n\n\n')
     create_manifest(train_array, 'train_20.json', german, 20)
     print('\n\n\n\n 50 HOURS \n\n\n\n')
-    create_manifest(train_array, 'train_50.json', german, 50)   
+    create_manifest(train_array, 'train_50.json', german, 50)
     print('\n\n\n\n 100 HOURS \n\n\n\n')
     create_manifest(train_array, 'train_100.json', german, 100)
     print('\n\n\n\n 200 HOURS \n\n\n\n')
@@ -104,5 +104,5 @@ if __name__ == '__main__':
     print('\n\n\n\n 1000 HOURS \n\n\n\n')
     create_manifest(train_array, 'train_1000.json', german, 1000)
     print('\n\n\n\n INF HOURS \n\n\n\n')
-    create_manifest(train_array, 'train_500.json', german)
+    create_manifest(train_array, 'train_inf.json', german)
 
