@@ -1,0 +1,456 @@
+QuartzNet15x5-En
+QuartzNet15x5-Zh
+JasperNet10x5-En
+[NeMo I 2020-10-15 10:31:03 helpers:161] Found existing object /home/kiraly_bence/.cache/torch/NeMo/NEMO_0.11.0/QuartzNet15x5-En-Base.nemo.
+[NeMo I 2020-10-15 10:31:03 helpers:167] Re-using file from: /home/kiraly_bence/.cache/torch/NeMo/NEMO_0.11.0/QuartzNet15x5-En-Base.nemo
+[NeMo I 2020-10-15 10:31:03 asrconvctcmodel:226] Instantiating model from pre-trained checkpoint
+[NeMo I 2020-10-15 10:31:03 neural_modules:343] Loading configuration of a new Neural Module from the `S7ARPGKYYF6EF3U1/.nemo_tmp/module.yaml` file
+[NeMo I 2020-10-15 10:31:03 features:144] PADDING: 16
+[NeMo I 2020-10-15 10:31:03 features:165] STFT using torch
+[NeMo I 2020-10-15 10:31:05 neural_modules:443] Instantiated a new Neural Module named `audiotomelspectrogrampreprocessor0` of type `AudioToMelSpectrogramPreprocessor`
+[NeMo I 2020-10-15 10:31:06 neural_modules:443] Instantiated a new Neural Module named `jasperencoder0` of type `JasperEncoder`
+[NeMo I 2020-10-15 10:31:06 neural_modules:443] Instantiated a new Neural Module named `jasperdecoderforctc0` of type `JasperDecoderForCTC`
+[NeMo I 2020-10-15 10:31:06 neural_modules:443] Instantiated a new Neural Module named `spectrogramaugmentation0` of type `SpectrogramAugmentation`
+[NeMo I 2020-10-15 10:31:06 neural_modules:443] Instantiated a new Neural Module named `quartznet0` of type `QuartzNet`
+[NeMo I 2020-10-15 10:31:06 asrconvctcmodel:228] Model instantiated with pre-trained weights
+Created QuartzNet model with 18924381 weights
+[NeMo I 2020-10-15 10:31:12 collections:158] Dataset loaded with 28539 files totalling 100.59 hours
+[NeMo I 2020-10-15 10:31:12 collections:159] 0 files were filtered totalling 0.00 hours
+[NeMo I 2020-10-15 10:31:12 collections:158] Dataset loaded with 2620 files totalling 5.40 hours
+[NeMo I 2020-10-15 10:31:12 collections:159] 0 files were filtered totalling 0.00 hours
+[NeMo I 2020-10-15 10:31:12 deprecated_callbacks:195] Starting .....
+[NeMo I 2020-10-15 10:31:12 deprecated_callbacks:207] Starting epoch 0
+[NeMo I 2020-10-15 10:31:13 deprecated_callbacks:232] Step: 0
+[NeMo I 2020-10-15 10:31:13 helpers:70] Loss: 42.798187255859375
+[NeMo I 2020-10-15 10:31:13 helpers:71] training_batch_WER:  18.05%
+[NeMo I 2020-10-15 10:31:13 helpers:72] Prediction: orwickshire the seat of the erolscree bete up by one of its lords wor the reception of queen elizabet over a dozen vulable clocks are seen one made in amsterdam over two hundred years ag
+[NeMo I 2020-10-15 10:31:13 helpers:73] Reference: warwickshire the seat of the earls craven fitted up by one of its lords for the reception of queen elizabeth over a dozen valuable clocks are seen one made in amsterdam over two hundred years ago
+[NeMo I 2020-10-15 10:31:13 deprecated_callbacks:247] Step time: 0.562246561050415 seconds
+[NeMo I 2020-10-15 10:31:25 deprecated_callbacks:232] Step: 25
+[NeMo I 2020-10-15 10:31:25 helpers:70] Loss: 358.0264892578125
+[NeMo I 2020-10-15 10:31:25 helpers:71] training_batch_WER:  90.88%
+[NeMo I 2020-10-15 10:31:25 helpers:72] Prediction:  apav oasdol pri from estrai a yet no soas sas sastr since  reasing from te ainsstance then  ebartaso bas after be rise was a oca o werio toban abam yes
+[NeMo I 2020-10-15 10:31:25 helpers:73] Reference: uttered moans and outcries from the strand yet no ransom was offered since reasoning from their own instincts they never doubted that after the price was paid the captive would be put to death laudonniere
+[NeMo I 2020-10-15 10:31:25 deprecated_callbacks:247] Step time: 0.4712522029876709 seconds
+[NeMo I 2020-10-15 10:31:37 deprecated_callbacks:232] Step: 50
+[NeMo I 2020-10-15 10:31:37 helpers:70] Loss: 507.4812927246094
+[NeMo I 2020-10-15 10:31:37 helpers:71] training_batch_WER:  99.67%
+[NeMo I 2020-10-15 10:31:37 helpers:72] Prediction: aeneer e o e te e fie e weeeneo tee e oe see en ee  eee ee we e eoo o e te pe enfoln  e e eee te e seen e e tear
+[NeMo I 2020-10-15 10:31:37 helpers:73] Reference: nothing was stirring there was nothing but fright mourning stupor in the houses and in the streets a sort of sacred horror not even the long rows of windows and stores the indentations of the chimneys and the roofs
+[NeMo I 2020-10-15 10:31:37 deprecated_callbacks:247] Step time: 0.4846501350402832 seconds
+[NeMo I 2020-10-15 10:31:49 deprecated_callbacks:232] Step: 75
+[NeMo I 2020-10-15 10:31:49 helpers:70] Loss: 383.2244873046875
+[NeMo I 2020-10-15 10:31:49 helpers:71] training_batch_WER:  97.18%
+[NeMo I 2020-10-15 10:31:49 helpers:72] Prediction: a an i ta te soion aa a e isan tapare toe ae mo a e toefloer i e fe tae se se ae  sista te foer
+[NeMo I 2020-10-15 10:31:49 helpers:73] Reference: whereby i might enter into salvation yet i would not get this money by violent or unlawful means i only think of what might be if i had it so you see since you have expressed such kind feelings toward me
+[NeMo I 2020-10-15 10:31:49 deprecated_callbacks:247] Step time: 0.4793877601623535 seconds
+[NeMo I 2020-10-15 10:32:02 deprecated_callbacks:232] Step: 100
+[NeMo I 2020-10-15 10:32:02 helpers:70] Loss: 391.4144592285156
+[NeMo I 2020-10-15 10:32:02 helpers:71] training_batch_WER:  96.46%
+[NeMo I 2020-10-15 10:32:02 helpers:72] Prediction: at wis mo e ponyse we at to an o tecac boes fe o an bas and oora ain pre o bolar an be sa ofhe wot on  an te a a re einwas ansation ar soin pan
+[NeMo I 2020-10-15 10:32:02 helpers:73] Reference: it was now the twenty sixth we had lived off the ship's stores for five days and all remaining breathable air had to be saved for the workmen even today as i write these lines my sensations are so intense
+[NeMo I 2020-10-15 10:32:02 deprecated_callbacks:247] Step time: 0.5033752918243408 seconds
+[NeMo I 2020-10-15 10:32:14 deprecated_callbacks:232] Step: 125
+[NeMo I 2020-10-15 10:32:14 helpers:70] Loss: 314.7474060058594
+[NeMo I 2020-10-15 10:32:14 helpers:71] training_batch_WER:  98.61%
+[NeMo I 2020-10-15 10:32:14 helpers:72] Prediction:  or a n she bo nesser ya tery bon mon bo ses inin o wa mat res po te apte tea os an reen teais a re fenon to sec   thea oma
+[NeMo I 2020-10-15 10:32:14 helpers:73] Reference: parures in antique goldsmith's work ivory bon bon boxes ornamented with microscopic battles gewgaws and ribbons he lavished everything on cosette cosette amazed
+[NeMo I 2020-10-15 10:32:14 deprecated_callbacks:247] Step time: 0.48253536224365234 seconds
+[NeMo I 2020-10-15 10:32:27 deprecated_callbacks:232] Step: 150
+[NeMo I 2020-10-15 10:32:27 helpers:70] Loss: 253.89395141601562
+[NeMo I 2020-10-15 10:32:27 helpers:71] training_batch_WER:  94.76%
+[NeMo I 2020-10-15 10:32:27 helpers:72] Prediction: eie ad ti to ad e to on bhe as e tation n wich she ae  t toer atin o he cor
+[NeMo I 2020-10-15 10:32:27 helpers:73] Reference: proceeded to draw an account of the last occasion on which she had seen her husband alive missus manderson was taken through her evidence by the coroner
+[NeMo I 2020-10-15 10:32:27 deprecated_callbacks:247] Step time: 0.465029239654541 seconds
+[NeMo I 2020-10-15 10:32:39 deprecated_callbacks:232] Step: 175
+[NeMo I 2020-10-15 10:32:39 helpers:70] Loss: 353.19140625
+[NeMo I 2020-10-15 10:32:39 helpers:71] training_batch_WER:  92.75%
+[NeMo I 2020-10-15 10:32:39 helpers:72] Prediction: ye t be pir erfr wrer se ti taal maere loo as a co the presto theo an pe tora la te wasa olete wi smas an los mio o te par he wo ti traly bo pas as a bai of for o me stere t be apr
+[NeMo I 2020-10-15 10:32:39 helpers:73] Reference: each blue car therefore received a double measure of welcome as it topped the crest of the hill and each cheer of welcome was acknowledged with smiles and nods by those in the car in one of these trimly built cars was a party of four young men whose spirits seemed to be at present
+[NeMo I 2020-10-15 10:32:39 deprecated_callbacks:247] Step time: 0.47983598709106445 seconds
+[NeMo I 2020-10-15 10:32:51 deprecated_callbacks:232] Step: 200
+[NeMo I 2020-10-15 10:32:51 helpers:70] Loss: 321.0846862792969
+[NeMo I 2020-10-15 10:32:51 helpers:71] training_batch_WER:  93.98%
+[NeMo I 2020-10-15 10:32:51 helpers:72] Prediction: a be cais ta fa the wor os e ly axe t
+[NeMo I 2020-10-15 10:32:51 helpers:73] Reference: had the oddest effect the work was beautifully executed
+[NeMo I 2020-10-15 10:32:51 deprecated_callbacks:247] Step time: 0.4858682155609131 seconds
+[NeMo I 2020-10-15 10:33:04 deprecated_callbacks:232] Step: 225
+[NeMo I 2020-10-15 10:33:04 helpers:70] Loss: 353.97222900390625
+[NeMo I 2020-10-15 10:33:04 helpers:71] training_batch_WER:  93.53%
+[NeMo I 2020-10-15 10:33:04 helpers:72] Prediction: hol boffol e of the than the asser was devten ant an flio theirresissens whe a for men o the sheo e onin enit an sterin the crea ta a borin preinnts
+[NeMo I 2020-10-15 10:33:04 helpers:73] Reference: how baffled he must have been the answer was definite and final their resistance was superb one of the few warning incidents during the gray days of our imprisonment
+[NeMo I 2020-10-15 10:33:04 deprecated_callbacks:247] Step time: 0.5004267692565918 seconds
+[NeMo I 2020-10-15 10:33:16 deprecated_callbacks:232] Step: 250
+[NeMo I 2020-10-15 10:33:16 helpers:70] Loss: 322.8642272949219
+[NeMo I 2020-10-15 10:33:16 helpers:71] training_batch_WER:  90.15%
+[NeMo I 2020-10-15 10:33:16 helpers:72] Prediction: thenrete aol spading at the veryseiter of the mi met was ni in o pissishan tete of this poer has soon fom the asi mi whet rengmed di hal fol thetectin veryng an he was sno knoin al te reen for thetang
+[NeMo I 2020-10-15 10:33:16 helpers:73] Reference: henry maxwell standing at the very centre of the movement was not in a position to judge of its power as some one from the outside might have done but raymond itself felt the touch in very many ways not knowing all the reasons for the change
+[NeMo I 2020-10-15 10:33:16 deprecated_callbacks:247] Step time: 0.4715697765350342 seconds
+[NeMo I 2020-10-15 10:33:29 deprecated_callbacks:232] Step: 275
+[NeMo I 2020-10-15 10:33:29 helpers:70] Loss: 298.0438537597656
+[NeMo I 2020-10-15 10:33:29 helpers:71] training_batch_WER:  94.72%
+[NeMo I 2020-10-15 10:33:29 helpers:72] Prediction: dano withoaccus met antotein an coilon essin en wit ferin atanbercofese preslen afis er tatrappines i bis ane toanertanin peingowit at teritltaber resol avintrtheuin
+[NeMo I 2020-10-15 10:33:29 helpers:73] Reference: dazzled with voluptuousness and believing themselves alone were to listen they would hear in their chamber a confused rustling of wings perfect happiness implies a mutual understanding with the angels that dark little chamber has all heaven for its ceiling
+[NeMo I 2020-10-15 10:33:29 deprecated_callbacks:247] Step time: 0.48456263542175293 seconds
+[NeMo I 2020-10-15 10:33:41 deprecated_callbacks:232] Step: 300
+[NeMo I 2020-10-15 10:33:41 helpers:70] Loss: 237.7261962890625
+[NeMo I 2020-10-15 10:33:41 helpers:71] training_batch_WER:  89.24%
+[NeMo I 2020-10-15 10:33:41 helpers:72] Prediction: and boa   stallether we tan to man deration the was folpl bit that was to gr man sis ar wa was to the sel on the saf for the se notin bhe fol wi fi in avy the
+[NeMo I 2020-10-15 10:33:41 helpers:73] Reference: and not on a small scale either to advance in that direction then was hopeless but that was no great matter since our way was to the south on the south we could see nothing the fog lay thick and heavy there
+[NeMo I 2020-10-15 10:33:41 deprecated_callbacks:247] Step time: 0.48116111755371094 seconds
+[NeMo I 2020-10-15 10:33:53 deprecated_callbacks:232] Step: 325
+[NeMo I 2020-10-15 10:33:53 helpers:70] Loss: 296.3325500488281
+[NeMo I 2020-10-15 10:33:53 helpers:71] training_batch_WER:  90.38%
+[NeMo I 2020-10-15 10:33:53 helpers:72] Prediction: the mo i dase to the pri o wloder it wo sowaliy but at din mli my ca and iad a won ol serto beis awasto fo when onder wone of the tres af hamin hea te plo
+[NeMo I 2020-10-15 10:33:53 helpers:73] Reference: the moon i gazed with a kind of wonder it moved slowly but it enlightened my path and i again went out in search of berries i was still cold when under one of the trees i found a huge cloak
+[NeMo I 2020-10-15 10:33:53 deprecated_callbacks:247] Step time: 0.4722907543182373 seconds
+[NeMo I 2020-10-15 10:34:06 deprecated_callbacks:232] Step: 350
+[NeMo I 2020-10-15 10:34:06 helpers:70] Loss: 276.77130126953125
+[NeMo I 2020-10-15 10:34:06 helpers:71] training_batch_WER:  89.05%
+[NeMo I 2020-10-15 10:34:06 helpers:72] Prediction: ye te ceded for i i rouar ayo wese to the nartheder asim
+[NeMo I 2020-10-15 10:34:06 helpers:73] Reference: he proceeded to fortify ramah a few miles to the north of jerusalem
+[NeMo I 2020-10-15 10:34:06 deprecated_callbacks:247] Step time: 0.4950263500213623 seconds
+[NeMo I 2020-10-15 10:34:18 deprecated_callbacks:232] Step: 375
+[NeMo I 2020-10-15 10:34:18 helpers:70] Loss: 262.13543701171875
+[NeMo I 2020-10-15 10:34:18 helpers:71] training_batch_WER:  89.26%
+[NeMo I 2020-10-15 10:34:18 helpers:72] Prediction: the fors wi brily coter tils the wal aconpiition of ri dar holis wid whic sa fec to teli andcor steco wer which  dan the plae avhery somsoasapiarn
+[NeMo I 2020-10-15 10:34:18 helpers:73] Reference: the floors were of brightly coloured tiles the walls a composition of rich dark polished wood which reflected the light and coloured stucco work which gave the place a very sumptuous appearance
+[NeMo I 2020-10-15 10:34:18 deprecated_callbacks:247] Step time: 0.4799962043762207 seconds
+[NeMo I 2020-10-15 10:34:31 deprecated_callbacks:232] Step: 400
+[NeMo I 2020-10-15 10:34:31 helpers:70] Loss: 270.8175964355469
+[NeMo I 2020-10-15 10:34:31 helpers:71] training_batch_WER:  94.24%
+[NeMo I 2020-10-15 10:34:31 helpers:72] Prediction: and ol bein soner i the tomin toake om e visit a pomen hin a marr tobo lin he sei jessen thet wi sioul to ceer tak te treck of fom the biltyo an en ronol to lestester
+[NeMo I 2020-10-15 10:34:31 helpers:73] Reference: and now being so near i determined to make them a visit upon mentioning the matter to buntline he suggested that we should together take a trip to philadelphia and thence run out to westchester
+[NeMo I 2020-10-15 10:34:31 deprecated_callbacks:247] Step time: 0.47330713272094727 seconds
+[NeMo I 2020-10-15 10:34:43 deprecated_callbacks:232] Step: 425
+[NeMo I 2020-10-15 10:34:43 helpers:70] Loss: 264.8609619140625
+[NeMo I 2020-10-15 10:34:43 helpers:71] training_batch_WER:  84.62%
+[NeMo I 2020-10-15 10:34:43 helpers:72] Prediction: bu  now nota bes small ferfulis fre papers wertoking a plinnus caminsencs when is cesitedly hof pesiv is cepples tefoltids ind se tee o ther grea con cempors
+[NeMo I 2020-10-15 10:34:43 helpers:73] Reference: but i now know that these small socialist free papers were talking the plainest common sense when they specifically emphasized as capitalist the falsehoods and suppressions of their great contemporaries
+[NeMo I 2020-10-15 10:34:43 deprecated_callbacks:247] Step time: 0.4825327396392822 seconds
+[NeMo I 2020-10-15 10:34:56 deprecated_callbacks:232] Step: 450
+[NeMo I 2020-10-15 10:34:56 helpers:70] Loss: 275.953857421875
+[NeMo I 2020-10-15 10:34:56 helpers:71] training_batch_WER:  89.38%
+[NeMo I 2020-10-15 10:34:56 helpers:72] Prediction: i no wit tans he os his was and he maner oin gor that was o fransy shesto tha by the boruald in thesein trress erta is wi is hredress an tete af e oou
+[NeMo I 2020-10-15 10:34:56 helpers:73] Reference: i know what fancy is as well as any man or woman born that was no fancy she stood there by the wardrobe in the same dress her face as white as her dress and listen i will tell you
+[NeMo I 2020-10-15 10:34:56 deprecated_callbacks:247] Step time: 0.48752355575561523 seconds
+[NeMo I 2020-10-15 10:35:08 deprecated_callbacks:232] Step: 475
+[NeMo I 2020-10-15 10:35:08 helpers:70] Loss: 260.87591552734375
+[NeMo I 2020-10-15 10:35:08 helpers:71] training_batch_WER:  91.78%
+[NeMo I 2020-10-15 10:35:08 helpers:72] Prediction: bhet te id be  ye ol so in the mis of bos that as a shol pes te so ol wis oll fime
+[NeMo I 2020-10-15 10:35:08 helpers:73] Reference: let god be with thee also in the midst of us that as it shall please thee so thou with all thine
+[NeMo I 2020-10-15 10:35:08 deprecated_callbacks:247] Step time: 0.48177647590637207 seconds
+[NeMo I 2020-10-15 10:35:21 deprecated_callbacks:232] Step: 500
+[NeMo I 2020-10-15 10:35:21 helpers:70] Loss: 230.4515838623047
+[NeMo I 2020-10-15 10:35:21 helpers:71] training_batch_WER:  82.42%
+[NeMo I 2020-10-15 10:35:21 helpers:72] Prediction: miris myg by yo or of tan eiras to bi paty fi in ha ba of ven
+[NeMo I 2020-10-15 10:35:21 helpers:73] Reference: marius my boy you are a baron you are rich don't go to pettifogging i beg of you
+[NeMo I 2020-10-15 10:35:21 deprecated_callbacks:247] Step time: 0.4838368892669678 seconds
+[NeMo I 2020-10-15 10:35:33 deprecated_callbacks:232] Step: 525
+[NeMo I 2020-10-15 10:35:33 helpers:70] Loss: 227.2537384033203
+[NeMo I 2020-10-15 10:35:33 helpers:71] training_batch_WER:  85.47%
+[NeMo I 2020-10-15 10:35:33 helpers:72] Prediction: and  is won danes om the mae nmeothi wose
+[NeMo I 2020-10-15 10:35:33 helpers:73] Reference: and so long as one gains something there is nothing lost
+[NeMo I 2020-10-15 10:35:33 deprecated_callbacks:247] Step time: 0.5009868144989014 seconds
+[NeMo I 2020-10-15 10:35:46 deprecated_callbacks:232] Step: 550
+[NeMo I 2020-10-15 10:35:46 helpers:70] Loss: 243.78787231445312
+[NeMo I 2020-10-15 10:35:46 helpers:71] training_batch_WER:  81.82%
+[NeMo I 2020-10-15 10:35:46 helpers:72] Prediction: and cuphis genl an tooalipot supresting abalto his frontars opter gi andon itet
+[NeMo I 2020-10-15 10:35:46 helpers:73] Reference: and kept his generals continually employed suppressing revolts on his frontiers after he subdued the hittites
+[NeMo I 2020-10-15 10:35:46 deprecated_callbacks:247] Step time: 0.4841032028198242 seconds
+[NeMo I 2020-10-15 10:35:58 deprecated_callbacks:232] Step: 575
+[NeMo I 2020-10-15 10:35:58 helpers:70] Loss: 252.57769775390625
+[NeMo I 2020-10-15 10:35:58 helpers:71] training_batch_WER:  85.74%
+[NeMo I 2020-10-15 10:35:58 helpers:72] Prediction: tay a wor mes had so daoner spe i she said to ere sel hat eav tis whas hoe in jo should falher she would not a lou an maner to traboer iny pirer
+[NeMo I 2020-10-15 10:35:58 helpers:73] Reference: a gray wintry mist had settled down upon her spirit and she said to herself that if this last hope in george should fail her she would not allow the matter to trouble her any farther
+[NeMo I 2020-10-15 10:35:58 deprecated_callbacks:247] Step time: 0.49389219284057617 seconds
+[NeMo I 2020-10-15 10:36:11 deprecated_callbacks:232] Step: 600
+[NeMo I 2020-10-15 10:36:11 helpers:70] Loss: 244.434326171875
+[NeMo I 2020-10-15 10:36:11 helpers:71] training_batch_WER:  80.81%
+[NeMo I 2020-10-15 10:36:11 helpers:72] Prediction: and till ly adpeationly with on con taning in de pefection wor his wan a her ad with sai i si daing the presaplof he weul spea toeer of hispation at  tament befor yhou laut for unsanlant be tine and teser in disten to lonthenm
+[NeMo I 2020-10-15 10:36:11 helpers:73] Reference: and till he had patiently with long continuing and deep affection worked his way into her regard was set aside during the present walk he would speak to her of his passionate attachment before he left for an uncertain length of time and the certain distance of london
+[NeMo I 2020-10-15 10:36:11 deprecated_callbacks:247] Step time: 0.4934225082397461 seconds
+[NeMo I 2020-10-15 10:36:23 deprecated_callbacks:232] Step: 625
+[NeMo I 2020-10-15 10:36:23 helpers:70] Loss: 236.57095336914062
+[NeMo I 2020-10-15 10:36:23 helpers:71] training_batch_WER:  84.15%
+[NeMo I 2020-10-15 10:36:23 helpers:72] Prediction: omen he wa to toc trein and paribles s e sa tat the carl or fichmen jis to under gers oeer has lande di anpinglen with the hanfolof men and had uf ho da later tenen cound on tha feld ot bose werth
+[NeMo I 2020-10-15 10:36:23 helpers:73] Reference: wildman who loved to talk treason in parables sent to say that the earl of richmond just two hundred years before had landed in england with a handful of men and had a few days later been crowned on the field of bosworth
+[NeMo I 2020-10-15 10:36:23 deprecated_callbacks:247] Step time: 0.4826028347015381 seconds
+[NeMo I 2020-10-15 10:36:36 deprecated_callbacks:232] Step: 650
+[NeMo I 2020-10-15 10:36:36 helpers:70] Loss: 259.4652099609375
+[NeMo I 2020-10-15 10:36:36 helpers:71] training_batch_WER:  85.96%
+[NeMo I 2020-10-15 10:36:36 helpers:72] Prediction:  sibo iny hel and wo breng wes abeating plesed with ha staccration to his hain walkim sti instarted for the tilprabstation leving catyaerfather decan thes the on expecteaway
+[NeMo I 2020-10-15 10:36:36 helpers:73] Reference: you and beth shall go anyhow and we'll bring louise a wedding present with this declaration he took his hat and walking stick and started for the telegraph station leaving patsy and her father to canvass the unexpected situation
+[NeMo I 2020-10-15 10:36:36 deprecated_callbacks:247] Step time: 0.4737405776977539 seconds
+[NeMo I 2020-10-15 10:36:48 deprecated_callbacks:232] Step: 675
+[NeMo I 2020-10-15 10:36:48 helpers:70] Loss: 233.75509643554688
+[NeMo I 2020-10-15 10:36:48 helpers:71] training_batch_WER:  82.25%
+[NeMo I 2020-10-15 10:36:48 helpers:72] Prediction: alwe on notthen yos apoute varinty amplaa strose wi gas loan ato nas ben bro wat de mein bya co arty tittile hman no for the lon was ver unte prons on the pater's bank the firspaman has the ma
+[NeMo I 2020-10-15 10:36:48 helpers:73] Reference: all we want now from you is a counter guarantee in place of struve's against whom an action has been brought what do you mean by a counter guarantee it's only a matter of form the loan was for eight hundred crowns on the painters bank the first payment has been made
+[NeMo I 2020-10-15 10:36:48 deprecated_callbacks:247] Step time: 0.5010950565338135 seconds
+[NeMo I 2020-10-15 10:37:01 deprecated_callbacks:232] Step: 700
+[NeMo I 2020-10-15 10:37:01 helpers:70] Loss: 256.6038818359375
+[NeMo I 2020-10-15 10:37:01 helpers:71] training_batch_WER:  85.17%
+[NeMo I 2020-10-15 10:37:01 helpers:72] Prediction: and the com be see pas tecclan o had al may begon the core spo wis sethan the foes to rang o bel mras an ecopiny fu felf fos i neved to e thet he wou compla wath mywishos po
+[NeMo I 2020-10-15 10:37:01 helpers:73] Reference: and the confederacy was declared i had already begun to correspond with southern authorities to arrange about raising a company for fairfax i never doubted that he would comply with my wishes but
+[NeMo I 2020-10-15 10:37:01 deprecated_callbacks:247] Step time: 0.49419140815734863 seconds
+[NeMo I 2020-10-15 10:37:13 deprecated_callbacks:232] Step: 725
+[NeMo I 2020-10-15 10:37:13 helpers:70] Loss: 213.99746704101562
+[NeMo I 2020-10-15 10:37:13 helpers:71] training_batch_WER:  81.42%
+[NeMo I 2020-10-15 10:37:13 helpers:72] Prediction: thet po conerfeing o bosie os norols
+[NeMo I 2020-10-15 10:37:13 helpers:73] Reference: but popular feeling on both sides was now aroused
+[NeMo I 2020-10-15 10:37:13 deprecated_callbacks:247] Step time: 0.5013513565063477 seconds
+[NeMo I 2020-10-15 10:37:26 deprecated_callbacks:232] Step: 750
+[NeMo I 2020-10-15 10:37:26 helpers:70] Loss: 227.4989776611328
+[NeMo I 2020-10-15 10:37:26 helpers:71] training_batch_WER:  79.61%
+[NeMo I 2020-10-15 10:37:26 helpers:72] Prediction: a idim in the streeonelo scorin fi tanle masses in the firt plice if efitet sep tat the sna tof e gra from saote partof this her cerfes in aworalwi if wetrite wat sep at a worling concedeetem
+[NeMo I 2020-10-15 10:37:26 helpers:73] Reference: and had not been in the streets crawling loose or in thick tangled masses in the first place if we try to accept that these snakes had been raised from some other part of this earth's surface in a whirlwind if we try to accept that a whirlwind could segregate them
+[NeMo I 2020-10-15 10:37:26 deprecated_callbacks:247] Step time: 0.4876363277435303 seconds
+[NeMo I 2020-10-15 10:37:38 deprecated_callbacks:232] Step: 775
+[NeMo I 2020-10-15 10:37:38 helpers:70] Loss: 221.4081268310547
+[NeMo I 2020-10-15 10:37:38 helpers:71] training_batch_WER:  78.61%
+[NeMo I 2020-10-15 10:37:38 helpers:72] Prediction: and the reuped pase acterwords ad ee in possible to wak as fas the do tefoll i was tear forfaling wy acigt of wistin slice ataing with him suile i sow hunin stos hodahad
+[NeMo I 2020-10-15 10:37:38 helpers:73] Reference: and the rapid pace afterwards had made it impossible to walk as fast the dogs could pull i was therefore following by the side of wisting's sledge and chatting with him suddenly i saw hanssen's dogs shoot ahead
+[NeMo I 2020-10-15 10:37:38 deprecated_callbacks:247] Step time: 0.4722106456756592 seconds
+[NeMo I 2020-10-15 10:37:51 deprecated_callbacks:232] Step: 800
+[NeMo I 2020-10-15 10:37:51 helpers:70] Loss: 206.36477661132812
+[NeMo I 2020-10-15 10:37:51 helpers:71] training_batch_WER:  80.78%
+[NeMo I 2020-10-15 10:37:51 helpers:72] Prediction: the saing of thi turng o vennture fangingess people wil and sir thut their might be so mes stay dacter al  to wen you rech the smoct tea old ll was kin tegan
+[NeMo I 2020-10-15 10:37:51 helpers:73] Reference: the scene of this strange adventure thinking as people will in sorrow that there might be some mistake after all but when he reached the spot behold all was changed again
+[NeMo I 2020-10-15 10:37:51 deprecated_callbacks:247] Step time: 0.5156216621398926 seconds
+[NeMo I 2020-10-15 10:38:03 deprecated_callbacks:232] Step: 825
+[NeMo I 2020-10-15 10:38:03 helpers:70] Loss: 230.08360290527344
+[NeMo I 2020-10-15 10:38:03 helpers:71] training_batch_WER:  77.57%
+[NeMo I 2020-10-15 10:38:03 helpers:72] Prediction: and of troving aks end droes on pos many op the al falys lefed ov in the toun it prestyge stol lie and the  sustrorl maners and meny of the faes   of mo terr an i ers
+[NeMo I 2020-10-15 10:38:03 helpers:73] Reference: and of charming walks and drives and views many of the old families who have given the town its prestige still live in their ancestral manors and many of the families who have moved there in recent years
+[NeMo I 2020-10-15 10:38:03 deprecated_callbacks:247] Step time: 0.4891397953033447 seconds
+[NeMo I 2020-10-15 10:38:16 deprecated_callbacks:232] Step: 850
+[NeMo I 2020-10-15 10:38:16 helpers:70] Loss: 219.35888671875
+[NeMo I 2020-10-15 10:38:16 helpers:71] training_batch_WER:  84.44%
+[NeMo I 2020-10-15 10:38:16 helpers:72] Prediction: thot i no rit cha ca were i may be come e troble so this us swoter the youmans passion he herhe the wor soganin to ach oe
+[NeMo I 2020-10-15 10:38:16 helpers:73] Reference: that is not right take care or i may become troublesome this menace smothered the young man's passion he urged the horse again into a trot
+[NeMo I 2020-10-15 10:38:16 deprecated_callbacks:247] Step time: 0.47389864921569824 seconds
+[NeMo I 2020-10-15 10:38:28 deprecated_callbacks:232] Step: 875
+[NeMo I 2020-10-15 10:38:28 helpers:70] Loss: 220.71630859375
+[NeMo I 2020-10-15 10:38:28 helpers:71] training_batch_WER:  82.94%
+[NeMo I 2020-10-15 10:38:28 helpers:72] Prediction: lon the stec to eeisin all lolin god and flo herself in to herfa this eams mi der chid suid nelwy as he cie thor suvingly a noa the it yerl fother homdackigain urn te then
+[NeMo I 2020-10-15 10:38:28 helpers:73] Reference: down the steps came hyacinth all blue and gold and flung herself into her father's arms my dear child said merriwig as he patted her soothingly there there it's your old father come back again h'r'm there there
+[NeMo I 2020-10-15 10:38:28 deprecated_callbacks:247] Step time: 0.49799609184265137 seconds
+[NeMo I 2020-10-15 10:38:41 deprecated_callbacks:232] Step: 900
+[NeMo I 2020-10-15 10:38:41 helpers:70] Loss: 224.5523223876953
+[NeMo I 2020-10-15 10:38:41 helpers:71] training_batch_WER:  82.67%
+[NeMo I 2020-10-15 10:38:41 helpers:72] Prediction: av e lhi we capken a cover of the boors and when nhex si lo gou the ad disuppere espit and the spited self e wols melted out asi ind the broing dista that was a lis the an o that
+[NeMo I 2020-10-15 10:38:41 helpers:73] Reference: after that we kept under cover of the bulwarks and when next i looked out they had disappeared from the spit and the spit itself had almost melted out of sight in the growing distance that was at least the end of that
+[NeMo I 2020-10-15 10:38:41 deprecated_callbacks:247] Step time: 0.4742743968963623 seconds
+[NeMo I 2020-10-15 10:38:53 deprecated_callbacks:232] Step: 925
+[NeMo I 2020-10-15 10:38:53 helpers:70] Loss: 193.06777954101562
+[NeMo I 2020-10-15 10:38:53 helpers:71] training_batch_WER:  77.53%
+[NeMo I 2020-10-15 10:38:53 helpers:72] Prediction:  but the mon of the gesstor wis ma  his coln en' foll his bart stolt wall bat of his combagins re boble and the jhange o wasso albiis that the adi in share in the lafter but the subject meter sal nor hed
+[NeMo I 2020-10-15 10:38:53 helpers:73] Reference: but the moment the gesture was made his countenance fell his mirth stopped while that of his companions redoubled and the change was so obvious that the audience shared in the laughter but the subject neither saw nor heard
+[NeMo I 2020-10-15 10:38:53 deprecated_callbacks:247] Step time: 0.4718334674835205 seconds
+[NeMo I 2020-10-15 10:39:06 deprecated_callbacks:232] Step: 950
+[NeMo I 2020-10-15 10:39:06 helpers:70] Loss: 193.4610595703125
+[NeMo I 2020-10-15 10:39:06 helpers:71] training_batch_WER:  72.63%
+[NeMo I 2020-10-15 10:39:06 helpers:72] Prediction: wi yon man ohe af thi sar imsel thise privily nonto the expresst the very strolest infrerst he was at the batl onthe waderwoo ras an ae decam to a dut cererl ofthiser and hise deccerrated wold distanctions wone oonhad alful day
+[NeMo I 2020-10-15 10:39:06 helpers:73] Reference: a young man on whose behalf the czar himself is privately known to have expressed the very strongest interest he was at the battle of waterloo as an aide de camp to a dutch general officer and is decorated with distinctions won upon that awful day
+[NeMo I 2020-10-15 10:39:06 deprecated_callbacks:247] Step time: 0.4842102527618408 seconds
+[NeMo I 2020-10-15 10:39:18 deprecated_callbacks:232] Step: 975
+[NeMo I 2020-10-15 10:39:18 helpers:70] Loss: 194.9396209716797
+[NeMo I 2020-10-15 10:39:18 helpers:71] training_batch_WER:  72.25%
+[NeMo I 2020-10-15 10:39:18 helpers:72] Prediction: roscoslartur and hear ome wit the sery that is my hae ol to right he said we up an the she de stras the which be rergoling
+[NeMo I 2020-10-15 10:39:18 helpers:73] Reference: rosville was larger and handsomer than surrey that is my house on the right he said we looked down the shady street through which we were going
+[NeMo I 2020-10-15 10:39:18 deprecated_callbacks:247] Step time: 0.4894258975982666 seconds
+[NeMo I 2020-10-15 10:39:31 deprecated_callbacks:232] Step: 1000
+[NeMo I 2020-10-15 10:39:31 helpers:70] Loss: 215.2821044921875
+[NeMo I 2020-10-15 10:39:31 helpers:71] training_batch_WER:  72.74%
+[NeMo I 2020-10-15 10:39:31 helpers:72] Prediction: pesole anconnyoturnnd tastairs look ing the see piese bite mem wil y apris the prisible stettin com in thits liter she do inter compaioncs in suten par is ally therewau sitting on the bad their co o their hams
+[NeMo I 2020-10-15 10:39:31 helpers:73] Reference: priscilla and conny turned upstairs lugging the suit case between them while patty approached the principal's study ten minutes later she joined her companions in seven paradise alley they were sitting on the bed their chins in their hands
+[NeMo I 2020-10-15 10:39:31 deprecated_callbacks:247] Step time: 0.48500704765319824 seconds
+[NeMo I 2020-10-15 10:39:43 deprecated_callbacks:232] Step: 1025
+[NeMo I 2020-10-15 10:39:43 helpers:70] Loss: 190.75970458984375
+[NeMo I 2020-10-15 10:39:43 helpers:71] training_batch_WER:  72.21%
+[NeMo I 2020-10-15 10:39:43 helpers:72] Prediction: and a pay consitter moon thi bri met the matclyself gole me the   kno forr sicl and gad t lace an be proved in the rigt
+[NeMo I 2020-10-15 10:39:43 helpers:73] Reference: and a very considerable one that i made the match myself i made the match you know four years ago and to have it take place and be proved in the right
+[NeMo I 2020-10-15 10:39:43 deprecated_callbacks:247] Step time: 0.4819307327270508 seconds
+[NeMo I 2020-10-15 10:39:56 deprecated_callbacks:232] Step: 1050
+[NeMo I 2020-10-15 10:39:56 helpers:70] Loss: 174.0050048828125
+[NeMo I 2020-10-15 10:39:56 helpers:71] training_batch_WER:  74.00%
+[NeMo I 2020-10-15 10:39:56 helpers:72] Prediction: and the said oudol i jeont poqreh of the rigt and borvin lig ha now watod tat at was watn oof quiques ry las es a mamering no was my lest i jov quopuate ron est and roling 
+[NeMo I 2020-10-15 10:39:56 helpers:73] Reference: and then said udo i jumped quickly to the right and whirling my no wait a bit that was later i jumped quickly to my left yes i remember it now it was my left i jumped quickly to my left and whirling my
+[NeMo I 2020-10-15 10:39:56 deprecated_callbacks:247] Step time: 0.4970393180847168 seconds
+[NeMo I 2020-10-15 10:40:09 deprecated_callbacks:232] Step: 1075
+[NeMo I 2020-10-15 10:40:09 helpers:70] Loss: 215.791259765625
+[NeMo I 2020-10-15 10:40:09 helpers:71] training_batch_WER:  74.44%
+[NeMo I 2020-10-15 10:40:09 helpers:72] Prediction: in sirtan imargancys of the state their prasen ligtly of the greatest maman e ulikinterst to safty there is nonation which hasnot ad on cerito another experne an acolen ne sefity of the servoces of perto ceen
+[NeMo I 2020-10-15 10:40:09 helpers:73] Reference: in certain emergencies of the state their presence might be of the greatest moment to the public interest or safety there is no nation which has not at one period or another experienced an absolute necessity of the services of particular men
+[NeMo I 2020-10-15 10:40:09 deprecated_callbacks:247] Step time: 0.4858870506286621 seconds
+[NeMo I 2020-10-15 10:40:21 deprecated_callbacks:232] Step: 1100
+[NeMo I 2020-10-15 10:40:21 helpers:70] Loss: 205.51524353027344
+[NeMo I 2020-10-15 10:40:21 helpers:71] training_batch_WER:  76.18%
+[NeMo I 2020-10-15 10:40:21 helpers:72] Prediction: eah mone has so many eyes ad that yo could lovver tetetur with a few and an the oter ia gravershous it i ui and still havv agood nany ie left with which to wacch the tanincols theseies wer rainge in tru ba bonhes
+[NeMo I 2020-10-15 10:40:21 helpers:73] Reference: each one had so many eyes that he could look at the teacher with a few and at the other little crayfishes with a few more and still have a good many eyes left with which to watch the tadpoles these eyes were arranged in two big bunches
+[NeMo I 2020-10-15 10:40:21 deprecated_callbacks:247] Step time: 0.48868799209594727 seconds
+[NeMo I 2020-10-15 10:40:34 deprecated_callbacks:232] Step: 1125
+[NeMo I 2020-10-15 10:40:34 helpers:70] Loss: 175.55819702148438
+[NeMo I 2020-10-15 10:40:34 helpers:71] training_batch_WER:  77.27%
+[NeMo I 2020-10-15 10:40:34 helpers:72] Prediction: hav ecstal h him for the mudy of hisnolitesha aains apresivnessalis mogulations tho welf spontonaty an lojicl querness of his eies ando the supperof arcotectur olhis prodections
+[NeMo I 2020-10-15 10:40:34 helpers:73] Reference: have extolled him for the beauty of his melodies and harmonies the expressiveness of his modulations the wealth spontaneity and logical clearness of his ideas and the superb architecture of his productions
+[NeMo I 2020-10-15 10:40:34 deprecated_callbacks:247] Step time: 0.48717474937438965 seconds
+[NeMo I 2020-10-15 10:40:46 deprecated_callbacks:232] Step: 1150
+[NeMo I 2020-10-15 10:40:46 helpers:70] Loss: 200.8082275390625
+[NeMo I 2020-10-15 10:40:46 helpers:71] training_batch_WER:  77.43%
+[NeMo I 2020-10-15 10:40:46 helpers:72] Prediction: onle seven teen i was is selten but m husbenen caine from then no and brotmay uf norhea tala ea onlae eidit this northen mis and thoear
+[NeMo I 2020-10-15 10:40:46 helpers:73] Reference: only seventeen i was a southerner but my husband came from the north and brought me up north here to live i always hated it this northern life and though i
+[NeMo I 2020-10-15 10:40:46 deprecated_callbacks:247] Step time: 0.48874807357788086 seconds
+[NeMo I 2020-10-15 10:40:58 deprecated_callbacks:232] Step: 1175
+[NeMo I 2020-10-15 10:40:58 helpers:70] Loss: 185.68695068359375
+[NeMo I 2020-10-15 10:40:58 helpers:71] training_batch_WER:  70.16%
+[NeMo I 2020-10-15 10:40:58 helpers:72] Prediction: as they looke backkod the shoarly said o il calles country wi lan for the grats the gro the one of the menle du bon te gevil nd le nout clining to the sayl in sayn
+[NeMo I 2020-10-15 10:40:58 helpers:73] Reference: as they looked back at the shore leif said i will call this country wineland for the grapes that grow there one of the men leaped upon the gunwale and leaned out clinging to the sail and sang
+[NeMo I 2020-10-15 10:40:58 deprecated_callbacks:247] Step time: 0.48470592498779297 seconds
+[NeMo I 2020-10-15 10:41:11 deprecated_callbacks:232] Step: 1200
+[NeMo I 2020-10-15 10:41:11 helpers:70] Loss: 195.69964599609375
+[NeMo I 2020-10-15 10:41:11 helpers:71] training_batch_WER:  76.08%
+[NeMo I 2020-10-15 10:41:11 helpers:72] Prediction: whay is fol repesaese a most to man deserhy he was sustaing by mny a tep en afseppedly and te eting coing from em ong de peopble at larg
+[NeMo I 2020-10-15 10:41:11 helpers:73] Reference: when his fellow representatives almost to a man deserted him he was sustained by many a token of sympathy and admiration coming from among the people at large
+[NeMo I 2020-10-15 10:41:11 deprecated_callbacks:247] Step time: 0.48400211334228516 seconds
+[NeMo I 2020-10-15 10:41:23 deprecated_callbacks:232] Step: 1225
+[NeMo I 2020-10-15 10:41:23 helpers:70] Loss: 185.43931579589844
+[NeMo I 2020-10-15 10:41:23 helpers:71] training_batch_WER:  73.13%
+[NeMo I 2020-10-15 10:41:23 helpers:72] Prediction: insstintaniously with the conciosis of ecistence returnedher recolection of the many sfrip and spoerning from the beate very mo eto the maens cuilintl way she eerly callected ev rescutter the which te berst from the wall lon is falling to the ground andfly op to enjer the ligyr of their proesol onderciu
+[NeMo I 2020-10-15 10:41:23 helpers:73] Reference: instantaneously with the consciousness of existence returned her recollection of the manuscript and springing from the bed in the very moment of the maid's going away she eagerly collected every scattered sheet which had burst from the roll on its falling to the ground and flew back to enjoy the luxury of their perusal on her pillow
+[NeMo I 2020-10-15 10:41:23 deprecated_callbacks:247] Step time: 0.4976615905761719 seconds
+[NeMo I 2020-10-15 10:41:36 deprecated_callbacks:232] Step: 1250
+[NeMo I 2020-10-15 10:41:36 helpers:70] Loss: 194.87550354003906
+[NeMo I 2020-10-15 10:41:36 helpers:71] training_batch_WER:  72.78%
+[NeMo I 2020-10-15 10:41:36 helpers:72] Prediction: when the shiplas bills and mee o the bo and ne was givin to its the ivo at was calld
+[NeMo I 2020-10-15 10:41:36 helpers:73] Reference: when the ship was built and made ready for the voyage a name was given to it the argo it was called
+[NeMo I 2020-10-15 10:41:36 deprecated_callbacks:247] Step time: 0.4731616973876953 seconds
+[NeMo I 2020-10-15 10:41:48 deprecated_callbacks:232] Step: 1275
+[NeMo I 2020-10-15 10:41:48 helpers:70] Loss: 194.78749084472656
+[NeMo I 2020-10-15 10:41:48 helpers:71] training_batch_WER:  73.07%
+[NeMo I 2020-10-15 10:41:48 helpers:72] Prediction: the great empire wau sedenly shakento wich emdations o te apprikof sile mor the party of rerbolin e led by shameness ye sin whi erdenin ale
+[NeMo I 2020-10-15 10:41:48 helpers:73] Reference: the great empire was suddenly shaken to its foundations by the outbreak of civil war the party of rebellion was led by shalmaneser's son ashur danin apli
+[NeMo I 2020-10-15 10:41:48 deprecated_callbacks:247] Step time: 0.4983372688293457 seconds
+[NeMo I 2020-10-15 10:42:01 deprecated_callbacks:232] Step: 1300
+[NeMo I 2020-10-15 10:42:01 helpers:70] Loss: 179.87603759765625
+[NeMo I 2020-10-15 10:42:01 helpers:71] training_batch_WER:  69.93%
+[NeMo I 2020-10-15 10:42:01 helpers:72] Prediction: wen the ajecters wo mige begain by sidding that ing mos and i ser ar affections turly of the mines
+[NeMo I 2020-10-15 10:42:01 helpers:73] Reference: with the objectors whom i began by citing that anger love and fear are affections purely of the mind
+[NeMo I 2020-10-15 10:42:01 deprecated_callbacks:247] Step time: 0.48866915702819824 seconds
+[NeMo I 2020-10-15 10:42:13 deprecated_callbacks:232] Step: 1325
+[NeMo I 2020-10-15 10:42:13 helpers:70] Loss: 200.3406982421875
+[NeMo I 2020-10-15 10:42:13 helpers:71] training_batch_WER:  76.80%
+[NeMo I 2020-10-15 10:42:13 helpers:72] Prediction: but wich tihis ery an has the got istipicle te an recummering at thact hin the dinnetable presento the fara les plended tepaance then it dods now it was er prepreted to sal a frud rother into flors sprits in decerations
+[NeMo I 2020-10-15 10:42:13 helpers:73] Reference: but which the historian has the greatest difficulty in recovering at that time the dinner table presented a far less splendid appearance than it does now it was appropriated to solid food rather than to flowers fruits and decorations
+[NeMo I 2020-10-15 10:42:13 deprecated_callbacks:247] Step time: 0.487593412399292 seconds
+[NeMo I 2020-10-15 10:42:26 deprecated_callbacks:232] Step: 1350
+[NeMo I 2020-10-15 10:42:26 helpers:70] Loss: 213.11184692382812
+[NeMo I 2020-10-15 10:42:26 helpers:71] training_batch_WER:  74.67%
+[NeMo I 2020-10-15 10:42:26 helpers:72] Prediction: mine agenyen ar es to e orerforn de charty ponsets sitimeticly o hese of pates tines and as often inberist te fin o preatecs the onde wordmitted thet she wsnerbien ertablat inc times
+[NeMo I 2020-10-15 10:42:26 helpers:73] Reference: one a genuine artist who often performed at charity concerts systematically refused to play at these times and was often embarrassed to find a pretext the other who admitted that she was nervous and irritable at such times
+[NeMo I 2020-10-15 10:42:26 deprecated_callbacks:247] Step time: 0.4829697608947754 seconds
+[NeMo I 2020-10-15 10:42:38 deprecated_callbacks:232] Step: 1375
+[NeMo I 2020-10-15 10:42:38 helpers:70] Loss: 155.48709106445312
+[NeMo I 2020-10-15 10:42:38 helpers:71] training_batch_WER:  75.98%
+[NeMo I 2020-10-15 10:42:38 helpers:72] Prediction: letting a to hap san on now for instente said the sosalest neverno now prird the connanin former with his borbeery an te evilence dot letspal a jaly eeming
+[NeMo I 2020-10-15 10:42:38 helpers:73] Reference: letting a top hat sit on you for instance said the socialist now now now cried the canadian farmer with his barbarian benevolence don't let's spoil a jolly evening
+[NeMo I 2020-10-15 10:42:38 deprecated_callbacks:247] Step time: 0.4834716320037842 seconds
+[NeMo I 2020-10-15 10:42:51 deprecated_callbacks:232] Step: 1400
+[NeMo I 2020-10-15 10:42:51 helpers:70] Loss: 190.4097900390625
+[NeMo I 2020-10-15 10:42:51 helpers:71] training_batch_WER:  67.62%
+[NeMo I 2020-10-15 10:42:51 helpers:72] Prediction: and no coter had hopt to ipla acompay owly by his doe it was if vergosl of cu muc happing is in itself on their any sircon ances not to bela they esupted
+[NeMo I 2020-10-15 10:42:51 helpers:73] Reference: and though catherine had hoped to explore it accompanied only by his daughter it was a proposal of too much happiness in itself under any circumstances not to be gladly accepted
+[NeMo I 2020-10-15 10:42:51 deprecated_callbacks:247] Step time: 0.47237467765808105 seconds
+[NeMo I 2020-10-15 10:43:03 deprecated_callbacks:232] Step: 1425
+[NeMo I 2020-10-15 10:43:03 helpers:70] Loss: 214.17752075195312
+[NeMo I 2020-10-15 10:43:03 helpers:71] training_batch_WER:  75.83%
+[NeMo I 2020-10-15 10:43:03 helpers:72] Prediction: esia could have drockin with suchas sho distence the ween i a fol tasmete de jery clac im on the soder teme what to hindera cope the bos going aftof the o cha loft he ask in an ecerviys
+[NeMo I 2020-10-15 10:43:03 helpers:73] Reference: easy i could have dropped him with such a short distance between it's cruel that's what it is jerry clapped him on the shoulder tell me what's to hinder a couple of us going after the old chap bluff he asked in an eager voice
+[NeMo I 2020-10-15 10:43:03 deprecated_callbacks:247] Step time: 0.4739081859588623 seconds
+[NeMo I 2020-10-15 10:43:15 deprecated_callbacks:232] Step: 1450
+[NeMo I 2020-10-15 10:43:15 helpers:70] Loss: 187.82260131835938
+[NeMo I 2020-10-15 10:43:15 helpers:71] training_batch_WER:  71.35%
+[NeMo I 2020-10-15 10:43:15 helpers:72] Prediction: it was decided to pu him ol lie did of knoke which prod in amedits acxasse for weth then ee ouers eftfer his first me the pasiep became as a livelay as possible as days at weeks wan on
+[NeMo I 2020-10-15 10:43:15 helpers:73] Reference: it was decided to put him on a light diet of milk which proved an immediate success for within forty eight hours after his first meal the patient became as lively as possible as days and weeks went on
+[NeMo I 2020-10-15 10:43:15 deprecated_callbacks:247] Step time: 0.4718010425567627 seconds
+[NeMo I 2020-10-15 10:43:28 deprecated_callbacks:232] Step: 1475
+[NeMo I 2020-10-15 10:43:28 helpers:70] Loss: 182.199951171875
+[NeMo I 2020-10-15 10:43:28 helpers:71] training_batch_WER:  70.75%
+[NeMo I 2020-10-15 10:43:28 helpers:72] Prediction: dercime preceeneso ardeet the orgon of the opcal powers achurvited to the foo vordi asn is to be fond in fromit of i deas consertin n not onle men sto wline that anycon o lie is te homjencan such fhelingsa mon famagen opors feopls
+[NeMo I 2020-10-15 10:43:28 helpers:73] Reference: durkheim proceeds to argue that the origin of the occult powers attributed to the feminine organism is to be found in primitive ideas concerning blood not only menstrual blood but any kind of blood is the object of such feelings among savage and barbarous peoples
+[NeMo I 2020-10-15 10:43:28 deprecated_callbacks:247] Step time: 0.4837620258331299 seconds
+[NeMo I 2020-10-15 10:43:40 deprecated_callbacks:232] Step: 1500
+[NeMo I 2020-10-15 10:43:40 helpers:70] Loss: 183.050537109375
+[NeMo I 2020-10-15 10:43:40 helpers:71] training_batch_WER:  74.00%
+[NeMo I 2020-10-15 10:43:40 helpers:72] Prediction: e vec te din in an tho fhe agical maner and dvicsly imvelisse somefuliss spron the fity fai ther the canvattin sorchabi ans e wer ta par complaby atosrut he to the maded thi stin to partment to thimself wiin gelissts
+[NeMo I 2020-10-15 10:43:40 helpers:73] Reference: erected in an amphitheatrical manner and richly embellish'd some few leagues from the city thither the combatants or champions were to repair compleatly accoutred each of them had a distinct apartment to himself behind the lists
+[NeMo I 2020-10-15 10:43:40 deprecated_callbacks:247] Step time: 0.47380828857421875 seconds
+[NeMo I 2020-10-15 10:43:53 deprecated_callbacks:232] Step: 1525
+[NeMo I 2020-10-15 10:43:53 helpers:70] Loss: 205.25869750976562
+[NeMo I 2020-10-15 10:43:53 helpers:71] training_batch_WER:  71.55%
+[NeMo I 2020-10-15 10:43:53 helpers:72] Prediction: siglencs for a cuple of minit then in grenort said what angerin i dod her with their gligves
+[NeMo I 2020-10-15 10:43:53 helpers:73] Reference: silence for a couple of minutes then grandcourt said what men are invited here with their wives
+[NeMo I 2020-10-15 10:43:53 deprecated_callbacks:247] Step time: 0.48871755599975586 seconds
+[NeMo I 2020-10-15 10:44:05 deprecated_callbacks:232] Step: 1550
+[NeMo I 2020-10-15 10:44:05 helpers:70] Loss: 195.3805694580078
+[NeMo I 2020-10-15 10:44:05 helpers:71] training_batch_WER:  70.80%
+[NeMo I 2020-10-15 10:44:05 helpers:72] Prediction: afterlayd lanam who hear twomerida and gavenoniss of the abpuatt of the bokinnirs consiquently when nock an his companione weach the tem the falmigation prepectro them taans loded and teelhey apois gatet
+[NeMo I 2020-10-15 10:44:05 helpers:73] Reference: after they had landed who hurried to merida and gave notice of the approach of the buccaneers consequently when roc and his companions reached the town they found the garrison prepared for them cannons loaded and all the approaches guarded
+[NeMo I 2020-10-15 10:44:05 deprecated_callbacks:247] Step time: 0.4846467971801758 seconds
+[NeMo I 2020-10-15 10:44:18 deprecated_callbacks:232] Step: 1575
+[NeMo I 2020-10-15 10:44:18 helpers:70] Loss: 155.2178192138672
+[NeMo I 2020-10-15 10:44:18 helpers:71] training_batch_WER:  69.29%
+[NeMo I 2020-10-15 10:44:18 helpers:72] Prediction: may he said soffly moa tor ye wil no happen agai oget y myward never he epeaed ta temling wois ic aboy asan forfi inness
+[NeMo I 2020-10-15 10:44:18 helpers:73] Reference: mary he said softly going up to her it will never happen again i give you my word never he repeated in a trembling voice like a boy asking for forgiveness
+[NeMo I 2020-10-15 10:44:18 deprecated_callbacks:247] Step time: 0.48366570472717285 seconds
+[NeMo I 2020-10-15 10:44:30 deprecated_callbacks:232] Step: 1600
+[NeMo I 2020-10-15 10:44:30 helpers:70] Loss: 159.62255859375
+[NeMo I 2020-10-15 10:44:30 helpers:71] training_batch_WER:  64.19%
+[NeMo I 2020-10-15 10:44:30 helpers:72] Prediction: aegay i aveve right to toll er know when  reach alling thian he did not goin throu the vilitenup tor the fone of the smalhouse of the crossspreet the turndo ba a churc gate and passe ov of the spuirs caris
+[NeMo I 2020-10-15 10:44:30 helpers:73] Reference: at any rate i have a right to tell her now when he reached allington he did not go in through the village and up to the front of the small house by the cross street but turned by the church gate and passed over the squire's terrace
+[NeMo I 2020-10-15 10:44:30 deprecated_callbacks:247] Step time: 0.4848313331604004 seconds
+[NeMo I 2020-10-15 10:44:43 deprecated_callbacks:232] Step: 1625
+[NeMo I 2020-10-15 10:44:43 helpers:70] Loss: 182.25730895996094
+[NeMo I 2020-10-15 10:44:43 helpers:71] training_batch_WER:  68.90%
+[NeMo I 2020-10-15 10:44:43 helpers:72] Prediction: the sty was cleer and pear with a sharp pland from the nor tesed ando themomter tweny o lad the freeing poit we can doun the seut face off the maomn ow werered leting over dri groud we were able to avoyt the sto almes antirly
+[NeMo I 2020-10-15 10:44:43 helpers:73] Reference: the sky was clear and pure with a sharp wind from the northeast and the thermometer twenty below the freezing point we continued down the south face of the mountain our road leading over dry ground we were able to avoid the snow almost entirely
+[NeMo I 2020-10-15 10:44:43 deprecated_callbacks:247] Step time: 0.4850907325744629 seconds
+[NeMo I 2020-10-15 10:44:55 deprecated_callbacks:232] Step: 1650
+[NeMo I 2020-10-15 10:44:55 helpers:70] Loss: 160.23562622070312
+[NeMo I 2020-10-15 10:44:55 helpers:71] training_batch_WER:  67.77%
+[NeMo I 2020-10-15 10:44:55 helpers:72] Prediction: bhe holl as so clence be srauted by fir wid a was tesol an mus se remeret the te dontuial pi paintged a wayan of solituted indopeventce that were so dearto his unsitiable heart frota after neaf he fhen  e sjrov in wan howe to crovity
+[NeMo I 2020-10-15 10:44:55 helpers:73] Reference: the hall was so closely surrounded by fir woods that it was invisible unless you were near it mister joshua pye painted away in the solitude and independence that were so dear to his unsociable heart friday afternoon he finished his job and went home to carmody
+[NeMo I 2020-10-15 10:44:55 deprecated_callbacks:247] Step time: 0.4821197986602783 seconds
+[NeMo I 2020-10-15 10:45:08 deprecated_callbacks:232] Step: 1675
+[NeMo I 2020-10-15 10:45:08 helpers:70] Loss: 179.9208984375
+[NeMo I 2020-10-15 10:45:08 helpers:71] training_batch_WER:  67.34%
+[NeMo I 2020-10-15 10:45:08 helpers:72] Prediction: jus tas e  is on mestifin ol the dingshols an now his a de mo to be don before on hi an and comeby the ron you ri on not mitst if in youlr a farst charc his go and he was right to when ou co ronol the tresery bet
+[NeMo I 2020-10-15 10:45:08 helpers:73] Reference: just as the theatres are mister finn or the gin shops then i know there's a deal more to be done before honest men can come by their own you're right enough mister finn you are as far as churches go and you was right too when you cut and run off the treasury bench
+[NeMo I 2020-10-15 10:45:08 deprecated_callbacks:247] Step time: 0.4937596321105957 seconds
+[NeMo I 2020-10-15 10:45:20 deprecated_callbacks:232] Step: 1700
+[NeMo I 2020-10-15 10:45:20 helpers:70] Loss: 167.23648071289062
+[NeMo I 2020-10-15 10:45:20 helpers:71] training_batch_WER:  70.40%
+[NeMo I 2020-10-15 10:45:20 helpers:72] Prediction: b wat the trable thi sisens have no cericy in new we and is te thout abenwui lam wls ame bieg the lidte atsel and burnd withbout any helpe she size gon to te dacters to try if he con baroal wec and mother le y an apindobl o that jhesestion on cov meading more
+[NeMo I 2020-10-15 10:45:20 helpers:73] Reference: but what's the trouble the simpsons have no kerosene and no wicks i guess they thought a banquet lamp was something that lighted itself and burned without any help seesaw has gone to the doctor's to try if he can borrow a wick and mother let me have a pint of oil but she says she won't give me any more
+[NeMo I 2020-10-15 10:45:20 deprecated_callbacks:247] Step time: 0.46753597259521484 seconds
+[NeMo I 2020-10-15 10:45:33 deprecated_callbacks:232] Step: 1725
+[NeMo I 2020-10-15 10:45:33 helpers:70] Loss: 206.7265625
+[NeMo I 2020-10-15 10:45:33 helpers:71] training_batch_WER:  73.29%
+[NeMo I 2020-10-15 10:45:33 helpers:72] Prediction: the dacter sa she wal not live tosee her huspend an le something comes to wis her bu the copers give noas and all the attemted the ple a and notthing
+[NeMo I 2020-10-15 10:45:33 helpers:73] Reference: the doctor says she will not live to see her husband unless something comes to rouse her but the papers give no news and all the attempts of the police end in nothing
+[NeMo I 2020-10-15 10:45:33 deprecated_callbacks:247] Step time: 0.4934651851654053 seconds
+[NeMo I 2020-10-15 10:45:45 deprecated_callbacks:232] Step: 1750
+[NeMo I 2020-10-15 10:45:45 helpers:70] Loss: 183.8828582763672
+[NeMo I 2020-10-15 10:45:45 helpers:71] training_batch_WER:  68.44%
+[NeMo I 2020-10-15 10:45:45 helpers:72] Prediction: ar companienes wer no less pleased with e news we brougt o our pospecs our ou the two ba evening was eposon sixcundered tifty feet about the see at is to say at the foot of the glinture
+[NeMo I 2020-10-15 10:45:45 helpers:73] Reference: our companions were no less pleased with the news we brought of our prospects our altitude that evening was eight thousand six hundred fifty feet above the sea that is to say at the foot of the glacier
+[NeMo I 2020-10-15 10:45:45 deprecated_callbacks:247] Step time: 0.4876575469970703 seconds
+[NeMo I 2020-10-15 10:45:58 deprecated_callbacks:232] Step: 1775
+[NeMo I 2020-10-15 10:45:58 helpers:70] Loss: 180.22341918945312
+[NeMo I 2020-10-15 10:45:58 helpers:71] training_batch_WER:  72.66%
+[NeMo I 2020-10-15 10:45:58 helpers:72] Prediction: pod mosst meing non child excaneda gram poppen ind horm punter dowen froma shes ever somunch to wi have e for you dor he poutdt forth the proattesting hand bit the teers round down fronds his chieks and fell on the bie stiff win capp
+[NeMo I 2020-10-15 10:45:58 helpers:73] Reference: goodness me no child exclaimed grandpapa in horror put her down phronsie she's ever so much too heavy for you dear he put forth a protesting hand but the tears ran down phronsie's cheeks and fell on the baby's stiff white cap
+[NeMo I 2020-10-15 10:45:58 deprecated_callbacks:247] Step time: 0.4887063503265381 seconds
+[NeMo I 2020-10-15 10:46:01 deprecated_callbacks:215] Finished epoch 0 in 0:14:49.309710
+[NeMo I 2020-10-15 10:46:01 deprecated_callbacks:203] Done in 0:14:49.310290
