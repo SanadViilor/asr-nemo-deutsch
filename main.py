@@ -14,7 +14,7 @@ NEMO_GIT_ROOT='../nemo-repo'
 #First, load the config from YAML file
 from ruamel.yaml import YAML
 yaml = YAML(typ="safe")
-with open(NEMO_GIT_ROOT+"/examples/asr/conf/quartznet_15x5.yaml") as file:
+with open("quartznet_15x5_de.yaml") as file: #NEMO_GIT_ROOT+"/examples/asr/conf/quartznet_15x5.yaml"
     model_definition = yaml.load(file)
 
 
@@ -28,17 +28,23 @@ for checkpoint in nemo.collections.asr.models.ASRConvCTCModel.list_pretrained_mo
 
 
 # Automagically go to NGC and instantiate a model and weights
-quartznet_model4 = nemo_asr.models.QuartzNet.from_pretrained(model_info="QuartzNet15x5-En")
+quartznet_model4 = nemo_asr.models.QuartzNet.from_pretrained(model_name="QuartzNet15x5-En")
 print(f"Created QuartzNet model with {quartznet_model4.num_weights} weights")
-
+print(quartznet_model4.decoder.vocabulary)
+quartznet_model4.change_vocabulary(
+    new_vocabulary=[
+        ' ', 'a', 'ä', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
+        'o', 'ö', 'p', 'q', 'r', 's', 't', 'u', 'ü', 'v', 'w', 'x', 'y', 'z',
+    ]
+)
 
 
 
 
 # Change these to point to your training data
-train_manifest = "manifests/ls_train_100.json"
-val_manifest = "manifests/ls_test.json"
-print(model_definition)
+train_manifest = "manifests/train_100.json"
+val_manifest = "manifests/test.json"
+#print(model_definition)
 labels = model_definition['model']['labels']
 data_layer = nemo_asr.AudioToTextDataLayer(manifest_filepath=train_manifest, labels=labels, batch_size=16)
 data_layerE = nemo_asr.AudioToTextDataLayer(manifest_filepath=val_manifest, labels=labels, batch_size=16)

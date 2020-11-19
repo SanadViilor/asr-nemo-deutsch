@@ -6,6 +6,7 @@ architecture: 12x1,
 batch: 96,
 epochs: 200,
 learning rate: 0p003,
-weight decay: 0.0015
+weight decay: 0.0015,
+o1
 
-python3 speech2text.py --asr_model quartznet12x1.yaml --train_dataset manifests/ls_train_100.json --eval_datasets ls_test.json --batch_size 96 --lr 0.003 --weight_decay 0.0015 --num_epochs 200
+python3 speech2text.py --asr_model quartznet12x1.yaml --train_dataset manifests/ls_train_100.json --eval_datasets ls_test.json --amp_opt_level O1 --batch_size 96 --lr 0.003 --weight_decay 0.0015 --num_epochs 200
