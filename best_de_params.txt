@@ -1,0 +1,13 @@
+Best results in German:
+
+WER: 43.77%
+
+architecture: 12x1,
+batch: 32,
+epochs: 300,
+learning rate: 0.0027,
+weight decay: 0.0015
+o1
+
+python3 speech2text.py --asr_model quartznet12x1_de.yaml --train_dataset manifests/train_100.json --eval_datasets ls_test.json --amp_opt_level O1 --batch_size 32 --lr 0.0027 --weight_decay 0.0015 --normalize_text False
+
